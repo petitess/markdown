@@ -1,8 +1,6 @@
 ```mermaid
 gitGraph
        commit
-       branch feature
-       commit
        branch develop
        checkout develop
        commit
