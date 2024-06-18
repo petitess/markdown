@@ -1,15 +1,15 @@
 ```mermaid
 
 gitGraph
-       branch main-dev
+       branch main-qua
        branch feature/A
        commit
-       checkout main-dev
+       checkout main-qua
        commit
        merge feature/A
        checkout main
        commit
-       merge main-dev
+       merge main-qua
 ```
 
 ```mermaid
