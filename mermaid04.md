@@ -6,6 +6,8 @@ gitGraph
        checkout main-dev
        commit
        merge feature/A
+       checkout main
+       commit
        merge main-dev
 ```
 
