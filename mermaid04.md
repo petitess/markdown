@@ -2,6 +2,9 @@
 gitGraph
        branch main-dev
        branch feature/A
+       commit
+       checkout main-dev
+       merge feature/A
 ```
 
 ```mermaid
