@@ -17,7 +17,7 @@ git push
 ```git
 git checkout main
 git pull --prune
-#### Remove
+<!-- #### Remove -->
 git branch -D release/qua
 git fetch upstream
 git diff main upstream/main -- ':!/.github/address_spaces.txt' ':!/.github/workflows/context.json'
