@@ -10,7 +10,7 @@ gitGraph
        merge feature/A
        checkout main-qua
        commit
-       merge main-qua
+       merge main-dev
 ```
 
        <!-- commit
