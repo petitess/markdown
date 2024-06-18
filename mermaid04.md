@@ -8,6 +8,9 @@ gitGraph
        checkout main-dev
        commit
        merge feature/A
+       checkout main-qua
+       commit
+       merge main-qua
 ```
 
        <!-- commit
