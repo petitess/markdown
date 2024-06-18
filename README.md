@@ -13,7 +13,7 @@ git commit -m "Added .gitattributes"
 git push
 ```
 ### Run each time
-```ml
+```pwsh
 git checkout main
 git pull --prune
 git branch -D release/uat
