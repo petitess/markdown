@@ -4,7 +4,8 @@ gitGraph
        branch main-qua
        branch main-dev
        branch feature/A
-       commit
+       commit 
+       checkout main-dev
 ```
 
        <!-- commit
