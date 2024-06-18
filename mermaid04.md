@@ -69,6 +69,8 @@ gitGraph
        checkout main
        branch main-qua
 ```
+
+```mermaid
 gitGraph
        branch main-qua
        branch main-dev
