@@ -6,6 +6,7 @@ gitGraph
        checkout main-dev
        commit
        merge feature/A
+       merge main-dev
 ```
 
 ```mermaid
