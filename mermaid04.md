@@ -6,6 +6,8 @@ gitGraph
        branch feature/A
        commit
        checkout main-dev
+       commit
+
 ```
 
        <!-- commit
