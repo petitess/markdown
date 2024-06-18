@@ -9,6 +9,9 @@ gitGraph
        commit
 ```
 
+```mermaid
+gitGraph
+
 %%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': true, 'showCommitLabel':true,'mainBranchName': 'MetroLine1'}} }%%
       gitGraph
         commit id:"NewYork"
@@ -30,3 +33,4 @@ gitGraph
         commit id:"Boston"
         commit id:"Detroit"
         commit type:REVERSE id:"SanFrancisco"
+```
