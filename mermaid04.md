@@ -10,7 +10,9 @@ gitGraph
        checkout main
        commit
        merge main-qua
-      branch feature/A
+       branch feature/A
+       commit
+       checkout main-dev
 ```
 
 ```mermaid
