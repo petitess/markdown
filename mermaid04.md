@@ -1,7 +1,7 @@
 ```mermaid
 gitGraph
-       branch develop
        commit
+       branch develop
        checkout main
        commit
        merge develop
@@ -32,4 +32,19 @@ gitGraph
         commit id:"Boston"
         commit id:"Detroit"
         commit type:REVERSE id:"SanFrancisco"
+```
+
+
+```mermaid
+gitGraph
+       commit
+       commit
+       branch develop
+       checkout develop
+       commit
+       commit
+       checkout main
+       merge develop
+       commit
+       commit
 ```
