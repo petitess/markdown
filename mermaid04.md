@@ -1,11 +1,11 @@
 ```mermaid
 gitGraph
        commit
-       branch develop
-       checkout develop
+       branch feature/A
+       checkout feature/A
        commit
        checkout main
-       merge develop
+       merge feature/A
        commit
 ```
 
