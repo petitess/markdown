@@ -2,11 +2,11 @@
 
 gitGraph
        branch main-qua
-       branch feature/A
+       branch main-dev
        commit
        checkout main-qua
        commit
-       merge feature/A
+       merge main-dev
        checkout main
        commit
        merge main-qua
