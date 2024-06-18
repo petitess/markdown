@@ -7,7 +7,7 @@ gitGraph
        commit
        checkout main-dev
        commit
-
+       merge main-dev
 ```
 
        <!-- commit
