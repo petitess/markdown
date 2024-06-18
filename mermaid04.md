@@ -1,5 +1,6 @@
 ```mermaid
 gitGraph
+       branch feature
        commit
        commit
        commit
