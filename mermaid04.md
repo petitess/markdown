@@ -22,7 +22,7 @@ gitGraph
         commit id:"Phoenix"
         commit type: HIGHLIGHT id:"Denver"
         commit id:"Boston"
-        checkout MetroLine1
+        checkout main(dev)
         commit id:"Atlanta"
         merge MetroLine3
         commit id:"Miami"
