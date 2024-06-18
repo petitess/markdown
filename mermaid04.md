@@ -4,6 +4,7 @@ gitGraph
        branch feature/A
        commit
        checkout main-dev
+       commit
        merge feature/A
 ```
 
