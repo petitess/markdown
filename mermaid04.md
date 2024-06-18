@@ -1,7 +1,7 @@
 ```mermaid
 gitGraph
-       commit
        branch develop
+       commit
        checkout main
        commit
        merge develop
@@ -42,9 +42,7 @@ gitGraph
        branch develop
        checkout develop
        commit
-       commit
        checkout main
        merge develop
-       commit
        commit
 ```
