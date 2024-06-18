@@ -5,7 +5,7 @@ gitGraph
        branch main-dev
        branch feature/A
        commit
-       checkout main-dev
+       checkout feature/A
        commit
        merge main-dev
 ```
