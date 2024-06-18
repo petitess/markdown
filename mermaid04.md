@@ -11,6 +11,9 @@ gitGraph
        checkout main-qua
        commit
        merge main-dev
+       checkout main
+       commit
+       merge main-qua
 ```
 
        <!-- commit
