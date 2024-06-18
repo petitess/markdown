@@ -3,7 +3,6 @@
 gitGraph
        branch main-qua
        branch main-dev
-       branch feature/A
        commit
        checkout main-qua
        commit
