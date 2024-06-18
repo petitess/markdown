@@ -3,15 +3,14 @@
 gitGraph
        branch main-qua
        branch main-dev
-       commit
        branch feature/A
-       commit
+       <!-- commit
        checkout main-qua
        commit
        merge main-dev
        checkout main
        commit
-       merge main-qua
+       merge main-qua -->
 ```
 
 ```mermaid
