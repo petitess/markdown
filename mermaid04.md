@@ -10,6 +10,7 @@ gitGraph
        commit
        checkout main
        merge release/qua
+       checkout main
 ```
 
 ```mermaid
