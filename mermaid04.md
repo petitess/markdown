@@ -1,6 +1,7 @@
 ```mermaid
 %%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': true, 'showCommitLabel':true,'mainBranchName': 'main-uat'}} }%%
 gitGraph
+       heckout main-uat
        branch main-dev
        branch feature/A
        commit
