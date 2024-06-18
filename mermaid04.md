@@ -4,6 +4,9 @@ gitGraph
        branch main-qua
        branch main-dev
        branch feature/A
+
+```
+
        <!-- commit
        checkout main-qua
        commit
@@ -11,7 +14,6 @@ gitGraph
        checkout main
        commit
        merge main-qua -->
-```
 
 ```mermaid
 %%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': true, 'showCommitLabel':true,'mainBranchName': 'main-dev'}} }%%
