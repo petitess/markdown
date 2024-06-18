@@ -7,6 +7,5 @@ gitGraph
        checkout main
        merge feature/A
        commit
-       remote upstream
 ```
 
