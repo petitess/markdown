@@ -1,6 +1,6 @@
 ```mermaid
 gitGraph
-       branch main
+       checkout
        branch feature/A
        commit
        checkout main
