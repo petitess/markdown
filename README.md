@@ -17,13 +17,13 @@ git push
 ```git
 git checkout main
 git pull --prune
-<!-- Remove -->
-git branch -D release/qua
+//Remove
+git branch -D release/uat
 git fetch upstream
 git diff main upstream/main -- ':!/.github/address_spaces.txt' ':!/.github/workflows/context.json'
-git checkout -b release/qua
+git checkout -b release/uat
 git merge upstream/main --allow-unrelated-histories --strategy-option theirs
-git push --set-upstream origin release/qua
+git push --set-upstream origin release/uat
 ```
 #### Run pipeline on release/uat branch - only plan
 #### Create a pull request into main
