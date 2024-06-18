@@ -1,7 +1,6 @@
 https://support.typora.io/Draw-Diagrams-With-Markdown/
 
-# GIT
-## Dev to Uat
+## GIT - Dev to Uat
 ### Run only the first time (before running prereq)
 ```git
 git clone https://github.com/abc/repo-uat.git
@@ -17,7 +16,8 @@ git push
 ```git
 git checkout main
 git pull --prune
-//Remove
+```
+```
 git branch -D release/uat
 git fetch upstream
 git diff main upstream/main -- ':!/.github/address_spaces.txt' ':!/.github/workflows/context.json'
