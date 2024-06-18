@@ -1,5 +1,4 @@
 ```mermaid
-
 gitGraph
        branch main-qua
        branch main-dev
