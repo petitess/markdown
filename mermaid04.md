@@ -3,14 +3,14 @@
 gitGraph
        branch main-qua
        branch main-dev
+       branch feature/A
        commit
-       checkout main-qua
+       checkout main-dev
        commit
        merge main-dev
        checkout main
        commit
        merge main-qua
-       branch feature/A
 ```
 
 ```mermaid
@@ -64,4 +64,16 @@ gitGraph
        merge release/qua
        checkout main
        branch main-qua
+```
+gitGraph
+       branch main-qua
+       branch main-dev
+       commit
+       checkout main-qua
+       commit
+       merge main-dev
+       checkout main
+       commit
+       merge main-qua
+       branch feature/A
 ```
