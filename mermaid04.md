@@ -4,7 +4,6 @@ gitGraph
        branch main-qua
        branch main-dev
        branch feature/A
-       commit tag:"v1.0.0"
        checkout main-dev
        commit
 ```
