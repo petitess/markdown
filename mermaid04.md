@@ -5,7 +5,7 @@ gitGraph
        commit
        checkout main
        merge feature/A
-       commit
+       checkout main
        branch release/qua
        commit
        checkout main
