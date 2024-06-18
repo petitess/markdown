@@ -11,6 +11,7 @@ gitGraph
        checkout main
        merge release/qua
        checkout main
+       branch main (qua)
 ```
 
 ```mermaid
