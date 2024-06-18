@@ -12,7 +12,6 @@ gitGraph
        merge main-qua
        branch feature/A
        commit
-       checkout main-dev
 ```
 
 ```mermaid
