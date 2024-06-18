@@ -2,7 +2,7 @@ https://support.typora.io/Draw-Diagrams-With-Markdown/
 
 ## GIT - Dev to Uat
 ### Run only the first time (before running prereq)
-```git
+```ml
 git clone https://github.com/abc/repo-uat.git
 cd repo-uat
 git remote add upstream https://github.com/abc/repo-dev.git
@@ -13,11 +13,9 @@ git commit -m "Added .gitattributes"
 git push
 ```
 ### Run each time
-```git
+```ml
 git checkout main
 git pull --prune
-```
-```
 git branch -D release/uat
 git fetch upstream
 git diff main upstream/main -- ':!/.github/address_spaces.txt' ':!/.github/workflows/context.json'
