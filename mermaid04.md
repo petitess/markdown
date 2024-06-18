@@ -1,13 +1,16 @@
 ```mermaid
 gitGraph
        commit
-       branch feature/A
-       checkout feature/A
+       branch develop
+       commit tag:"v1.0.0"
        commit
        checkout main
-       merge feature/A
+       commit type: HIGHLIGHT
        commit
-       branch feature/B
+       merge develop
+       commit
+       branch featureA
+       commit
 ```
 
 ```mermaid
