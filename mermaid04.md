@@ -10,7 +10,7 @@ gitGraph
 ```
 
 ```mermaid
-%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': true, 'showCommitLabel':true,'mainBranchName': 'MetroLine1'}} }%%
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': true, 'showCommitLabel':true,'mainBranchName': 'main-dev'}} }%%
       gitGraph
         commit id:"NewYork"
         commit id:"Dallas"
@@ -22,7 +22,7 @@ gitGraph
         commit id:"Phoenix"
         commit type: HIGHLIGHT id:"Denver"
         commit id:"Boston"
-        checkout MetroLine1
+        checkout main-dev
         commit id:"Atlanta"
         merge MetroLine3
         commit id:"Miami"
