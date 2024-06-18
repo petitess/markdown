@@ -6,8 +6,10 @@ gitGraph
        checkout main
        merge feature/A
        commit
-       branch featureB
+       branch feature/B
        commit
+       checkout main
+       merge feature/B
 ```
 
 ```mermaid
