@@ -11,7 +11,6 @@ gitGraph
        commit
        merge main-qua
        branch feature/A
-       commit
 ```
 
 ```mermaid
