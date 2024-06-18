@@ -7,6 +7,7 @@ gitGraph
        checkout main
        merge feature/A
        commit
+       branch feature/A
 ```
 
 ```mermaid
