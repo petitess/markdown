@@ -26,3 +26,19 @@ git push --set-upstream origin release/uat
 #### Run pipeline on release/uat branch - only plan
 #### Create a pull request into main
 #### Run pipeline on main branch
+```mermaid
+gitGraph
+       branch main-qua
+       branch main-dev
+       branch feature/A
+       commit
+       checkout main-dev
+       commit
+       merge feature/A
+       checkout main-qua
+       commit
+       merge main-dev
+       checkout main
+       commit
+       merge main-qua
+```
