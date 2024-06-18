@@ -14,24 +14,17 @@ git commit -m "Added .gitattributes"
 git push
 ```
 ### Run each time
+```
 git checkout main
- 
 git pull --prune
 #### Remove
 git branch -D release/qua
- 
 git fetch upstream
- 
 git diff main upstream/main -- ':!/.github/address_spaces.txt' ':!/.github/workflows/context.json'
- 
 git checkout -b release/qua
- 
 git merge upstream/main --allow-unrelated-histories --strategy-option theirs
- 
 git push --set-upstream origin release/qua
- 
+```
 #### Run pipeline on release/uat branch - only plan
- 
-### Create a pull request into main
- 
+#### Create a pull request into main
 #### Run pipeline on main branch
