@@ -1,7 +1,7 @@
 https://support.typora.io/Draw-Diagrams-With-Markdown/
 
 ## GIT - Dev to Uat
-#### Run only the first time (before running prereq)
+#### 1.Run only the first time (before running prereq)
 ```s
 git clone https://github.com/abc/repo-uat.git
 cd repo-uat
@@ -12,7 +12,7 @@ git checkout upstream/main -- .gitattributes
 git commit -m "Added .gitattributes"
 git push
 ```
-#### Run each time
+#### 2.Run each time
 ```s
 git checkout main
 git pull --prune
@@ -23,9 +23,9 @@ git checkout -b release/uat
 git merge upstream/main --allow-unrelated-histories --strategy-option theirs
 git push --set-upstream origin release/uat
 ```
-#### Run pipeline on release/uat branch - only plan
-#### Create a pull request into main
-#### Run pipeline on main branch
+#### 3.Run pipeline on release/uat branch - only plan
+#### 4.Create a pull request into main
+#### 5.Run pipeline on main branch
 ```mermaid
 gitGraph
        branch main-qua
