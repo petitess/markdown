@@ -1,6 +1,6 @@
 ```mermaid
 gitGraph
-       main
+       commit
        commit
        commit
        branch develop
