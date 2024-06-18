@@ -3,8 +3,6 @@ gitGraph
        commit
        branch feature/A
        commit
-       checkout main
-       commit
        merge feature/A
        commit
        branch featureB
