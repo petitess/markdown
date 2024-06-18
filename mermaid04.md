@@ -2,10 +2,8 @@
 gitGraph
        commit
        branch develop
-       commit tag:"v1.0.0"
        commit
        checkout main
-       commit type: HIGHLIGHT
        commit
        merge develop
        commit
