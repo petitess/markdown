@@ -10,8 +10,6 @@ gitGraph
 ```
 
 ```mermaid
-gitGraph
-
 %%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': true, 'showCommitLabel':true,'mainBranchName': 'MetroLine1'}} }%%
       gitGraph
         commit id:"NewYork"
