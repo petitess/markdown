@@ -1,10 +1,10 @@
 ```mermaid
 gitGraph
        commit
-       branch feature/A
+       branch main-dev
        commit
        checkout main
-       merge feature/A
+       merge main-dev
        checkout main
        branch release/qua
        commit
@@ -49,4 +49,20 @@ gitGraph
        checkout main
        merge develop
        commit
+```
+
+```mermaid
+gitGraph
+       commit
+       branch feature/A
+       commit
+       checkout main
+       merge feature/A
+       checkout main
+       branch release/qua
+       commit
+       checkout main
+       merge release/qua
+       checkout main
+       branch main-qua
 ```
